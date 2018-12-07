@@ -1,17 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import {Http, Response} from '@angular/http';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/toPromise';
 
 @Component({
   templateUrl: 'chartjs.component.html'
 })
-export class ChartJSComponent {
+export class ChartJSComponent implements OnInit{
 
+  constructor(private http: Http) { }
   // lineChart
+
+  public mainChartData1: Array<number> = [];
+  public mainChartData2: Array<number> = [];
+
   public lineChartData: Array<any> = [
-    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
-    {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'},
-    {data: [18, 48, 77, 9, 100, 27, 40], label: 'Series C'}
+    {data: this.mainChartData1, label: 'Series A'},
+    {data: this.mainChartData2, label: 'Series B'}
   ];
-  public lineChartLabels: Array<any> = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+  public lineChartLabels: Array<any> = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
   public lineChartOptions: any = {
     animation: false,
     responsive: true
@@ -94,4 +101,33 @@ export class ChartJSComponent {
     console.log(e);
   }
 
-}
+  ngOnInit(): void {
+    // generate random values for mainChart
+
+    let url = 'http://localhost:3000/balls';
+    this.http.get(url).toPromise().then(res => {
+      const results = JSON.parse(res['_body']);
+      console.log(typeof(results));
+      for(let i=0; i< results.length; i++){
+        // console.log(results[i].runs)
+        if(i%2 == 0) this.mainChartData1.push(parseInt(results[i].runs));
+        else {
+          this.mainChartData2.push(results[i].runs);
+        }
+
+      }
+      // console.log(this.mainChartData1);
+      // console.log(this.mainChartData2);
+      this.lineChartData = [{
+        data: this.mainChartData1,
+        label: 'Inning 1'
+      },
+        {
+          data: this.mainChartData2,
+          label: 'Inning 2'
+        }];
+    });
+
+  }
+
+

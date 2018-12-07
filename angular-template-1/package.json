@@ -46,6 +46,7 @@
     "flag-icon-css": "^3.2.1",
     "font-awesome": "^4.7.0",
     "moment": "^2.22.2",
+    "mongoose": "^5.3.15",
     "mutationobserver-shim": "^0.3.2",
     "ng2-charts": "^1.6.0",
     "ngx-bootstrap": "^3.0.1",

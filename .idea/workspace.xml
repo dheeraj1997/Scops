@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f346672b-726c-40f1-9304-622a422cb00e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-template-1/app.js" />
+      <change beforePath="$PROJECT_DIR$/angular-template-1/package.json" afterPath="$PROJECT_DIR$/angular-template-1/package.json" />
+      <change beforePath="$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.ts" afterPath="$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.ts" />
+      <change beforePath="$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html" afterPath="$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html" />
+      <change beforePath="$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts" afterPath="$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts" />
+      <change beforePath="$PROJECT_DIR$/angular-template-1/src/index.html" afterPath="$PROJECT_DIR$/angular-template-1/src/index.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="chartjs.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-template-1/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3483">
+              <caret line="129" column="17" lean-forward="false" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1543720650845" expanded="false" signature="1041:1053" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="1956:1968" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="3302:3314" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="4652:4664" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="14614:14624" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="14871:14881" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="15514:15524" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="15771:15781" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="16416:16426" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="16673:16683" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="17317:17327" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="17574:17584" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="18216:18226" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="18473:18483" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="19117:19127" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="19374:19384" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="20016:20025" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="20271:20281" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="21924:21934" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="22635:22645" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="23435:23445" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="24238:24248" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="25039:25049" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="25841:25850" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="28081:28091" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="28329:28343" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="29970:29980" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="30212:30226" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="31849:31859" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="32093:32107" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="33730:33740" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="33971:33985" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="35607:35617" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="35855:35869" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="37491:37501" ph="..." />
+                <marker date="1543720650845" expanded="false" signature="37733:37747" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular-template-1/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/app.routing.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#120#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mainChartData1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/angular-template-1/src/app/_nav.ts" />
+        <option value="$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/angular-template-1/src/index.html" />
+        <option value="$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.ts" />
+        <option value="$PROJECT_DIR$/angular-template-1/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts" />
+        <option value="$PROJECT_DIR$/angular-template-1/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/angular-template-1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="916" />
+    <option name="y" value="236" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1.Scops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1.Scops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1.Scops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1.Scops" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-template-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1.Scops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1.Scops" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-template-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-template-1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f346672b-726c-40f1-9304-622a422cb00e" name="Default" comment="" />
+      <created>1543604852645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543604852645</updated>
+      <workItem from="1543604853953" duration="1885000" />
+      <workItem from="1543736295391" duration="714000" />
+      <workItem from="1543720358426" duration="1510000" />
+      <workItem from="1544122146411" duration="5772000" />
+      <workItem from="1544205297068" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9967000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16234796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/angular-template-1/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3483">
+          <caret line="129" column="17" lean-forward="false" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1543720650845" expanded="false" signature="1041:1053" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="1956:1968" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="3302:3314" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="4652:4664" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14614:14624" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14871:14881" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15514:15524" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15771:15781" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16416:16426" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16673:16683" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17317:17327" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17574:17584" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18216:18226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18473:18483" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19117:19127" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19374:19384" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20016:20025" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20271:20281" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="21924:21934" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="22635:22645" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="23435:23445" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="24238:24248" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25039:25049" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25841:25850" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28081:28091" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28329:28343" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="29970:29980" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="30212:30226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="31849:31859" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="32093:32107" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33730:33740" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33971:33985" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35607:35617" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35855:35869" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37491:37501" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37733:37747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#120#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/_nav.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6021">
+          <caret line="223" column="7" lean-forward="false" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3483">
+          <caret line="129" column="17" lean-forward="true" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1543720650845" expanded="false" signature="1041:1053" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="1956:1968" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="3302:3314" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="4652:4664" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14614:14624" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14871:14881" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15514:15524" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15771:15781" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16416:16426" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16673:16683" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17317:17327" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17574:17584" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18216:18226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18473:18483" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19117:19127" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19374:19384" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20016:20025" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20271:20281" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="21924:21934" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="22635:22645" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="23435:23445" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="24238:24248" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25039:25049" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25841:25850" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28081:28091" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28329:28343" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="29970:29980" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="30212:30226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="31849:31859" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="32093:32107" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33730:33740" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33971:33985" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35607:35617" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35855:35869" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37491:37501" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37733:37747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6291">
+          <caret line="233" column="4" lean-forward="true" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/_nav.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6021">
+          <caret line="223" column="7" lean-forward="false" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7047">
+          <caret line="261" column="8" lean-forward="false" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3537">
+          <caret line="131" column="39" lean-forward="false" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1543720650845" expanded="false" signature="1041:1053" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="1956:1968" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="3302:3314" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="4652:4664" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14614:14624" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14871:14881" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15514:15524" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15771:15781" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16416:16426" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16673:16683" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17317:17327" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17574:17584" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18216:18226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18473:18483" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19117:19127" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19374:19384" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20016:20025" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20271:20281" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="21924:21934" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="22635:22645" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="23435:23445" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="24238:24248" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25039:25049" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25841:25850" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28081:28091" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28329:28343" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="29970:29980" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="30212:30226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="31849:31859" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="32093:32107" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33730:33740" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33971:33985" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35607:35617" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35855:35869" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37491:37501" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37733:37747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/_nav.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6021">
+          <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7047">
+          <caret line="261" column="8" lean-forward="false" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3537">
+          <caret line="131" column="39" lean-forward="true" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1543720650845" expanded="false" signature="1041:1053" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="1956:1968" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="3302:3314" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="4652:4664" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14614:14624" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14871:14881" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15514:15524" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15771:15781" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16416:16426" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16673:16683" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17317:17327" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17574:17584" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18216:18226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18473:18483" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19117:19127" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19374:19384" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20016:20025" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20271:20281" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="21924:21934" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="22635:22645" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="23435:23445" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="24238:24248" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25039:25049" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25841:25850" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28081:28091" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28329:28343" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="29970:29980" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="30212:30226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="31849:31859" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="32093:32107" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33730:33740" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33971:33985" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35607:35617" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35855:35869" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37491:37501" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37733:37747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2899">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/_nav.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="223" column="7" lean-forward="false" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/chartjs/chartjs.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/node_modules/mongoose/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3483">
+          <caret line="129" column="17" lean-forward="false" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1543720650845" expanded="false" signature="1041:1053" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="1956:1968" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="3302:3314" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="4652:4664" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14614:14624" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="14871:14881" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15514:15524" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="15771:15781" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16416:16426" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="16673:16683" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17317:17327" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="17574:17584" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18216:18226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="18473:18483" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19117:19127" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="19374:19384" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20016:20025" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="20271:20281" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="21924:21934" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="22635:22645" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="23435:23445" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="24238:24248" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25039:25049" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="25841:25850" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28081:28091" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="28329:28343" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="29970:29980" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="30212:30226" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="31849:31859" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="32093:32107" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33730:33740" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="33971:33985" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35607:35617" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="35855:35869" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37491:37501" ph="..." />
+            <marker date="1543720650845" expanded="false" signature="37733:37747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/views/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#120#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-template-1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

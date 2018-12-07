@@ -1,0 +1,4 @@
+db.balls.aggregate({$group:{_id:{"Match_Id":{Match_Id:"$Match_Id"},Innings_Id:{Innings_Id:"$Innings_Id"}},count:{$sum:1}}}).pretty()
+
+
+db.balls.aggregate({$group:{_id:{"Match_Id":{Match_Id:"$Match_Id"},Innings_Id:{Innings_Id:"$Innings_Id"},Over_Id:{Over_Id:"$Over_Id"}},runs:{$sum:"$Batsman_Scored"},extras:{$sum:"$Extra_Runs"}}}).pretty()

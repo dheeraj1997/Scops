@@ -2,11 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities';
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
+import {Http, Response} from '@angular/http';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/toPromise';
 
 @Component({
   templateUrl: 'dashboard.component.html'
 })
+
 export class DashboardComponent implements OnInit {
+
+  constructor(private http: Http) { }
 
   radioModel: string = 'Month';
 
@@ -212,27 +218,31 @@ export class DashboardComponent implements OnInit {
 
   // mainChart
 
-  public mainChartElements = 27;
+  public mainChartElements = 20;
   public mainChartData1: Array<number> = [];
   public mainChartData2: Array<number> = [];
   public mainChartData3: Array<number> = [];
 
+  // public mainChartData: Array<any> = [];
   public mainChartData: Array<any> = [
     {
       data: this.mainChartData1,
-      label: 'Current'
+      label: 'Inning 1'
     },
     {
       data: this.mainChartData2,
-      label: 'Previous'
+      label: 'Inning 2'
     },
     {
       data: this.mainChartData3,
       label: 'BEP'
     }
+    // console.log(this.mainChartData1);
   ];
+
   /* tslint:disable:max-line-length */
-  public mainChartLabels: Array<any> = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday', 'Thursday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  // public mainChartLabels: Array<any> = ['Monday','Tues','Wed','Thu','Fri','Sat','Monday','Tues','Wed','Thu','Fri','Sat','Monday','Tues','Wed','Thu','Fri','Sat','Monday','Tues','Wed','Thu','Fri'];
+  public mainChartLabels: Array<any> = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
   /* tslint:enable:max-line-length */
   public mainChartOptions: any = {
     tooltips: {
@@ -256,7 +266,7 @@ export class DashboardComponent implements OnInit {
         },
         ticks: {
           callback: function(value: any) {
-            return value.charAt(0);
+            return value;
           }
         }
       }],
@@ -264,8 +274,8 @@ export class DashboardComponent implements OnInit {
         ticks: {
           beginAtZero: true,
           maxTicksLimit: 5,
-          stepSize: Math.ceil(250 / 5),
-          max: 250
+          stepSize: Math.ceil( 5),
+          max: 50
         }
       }]
     },
@@ -380,10 +390,40 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
     // generate random values for mainChart
-    for (let i = 0; i <= this.mainChartElements; i++) {
-      this.mainChartData1.push(this.random(50, 200));
-      this.mainChartData2.push(this.random(80, 100));
-      this.mainChartData3.push(65);
+
+    let url = 'http://localhost:3000/balls';
+    this.http.get(url).toPromise().then(res => {
+      const results = JSON.parse(res['_body']);
+      console.log(typeof(results));
+      for(let i=0; i< results.length; i++){
+        // console.log(results[i].runs)
+        if(i%2 == 0) this.mainChartData1.push(parseInt(results[i].runs));
+        else {
+          this.mainChartData2.push(results[i].runs);
+        }
+
+      }
+      console.log(this.mainChartData1);
+      console.log(this.mainChartData2);
+      this.mainChartData = [{
+        data: this.mainChartData1,
+        label: 'Inning 1'
+        },
+        {
+          data: this.mainChartData2,
+          label: 'Inning 2'
+        },
+        {
+          data: this.mainChartData3,
+          label: 'BEP'
+        }];
+    });
+
+    for (let i = 0; i < this.mainChartElements; i++) {
+      // this.mainChartData1.push(65);
+      // this.mainChartData2.push(65);
+      // this.mainChartData3.push(65);
     }
+    console.log(typeof(this.mainChartData3))
   }
 }
