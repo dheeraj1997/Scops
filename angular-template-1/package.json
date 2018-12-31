@@ -19,16 +19,19 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve && node app.js",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.1.10",
     "@angular/common": "^6.1.10",
+    "@angular/cli": "^6.2.6",
+    "@angular/compiler-cli": "^6.1.10",
     "@angular/compiler": "^6.1.10",
     "@angular/core": "^6.1.10",
     "@angular/forms": "^6.1.10",
@@ -61,8 +64,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.7.5",
-    "@angular/cli": "^6.2.6",
-    "@angular/compiler-cli": "^6.1.10",
     "@angular/language-service": "^6.1.10",
     "@types/jasmine": "^2.8.9",
     "@types/jasminewd2": "^2.0.5",

@@ -107,7 +107,7 @@ export class ChartJSComponent implements OnInit{
     let url = 'http://localhost:3000/balls';
     this.http.get(url).toPromise().then(res => {
       const results = JSON.parse(res['_body']);
-      console.log(typeof(results));
+      console.log("results generated ",typeof(results));
       for(let i=0; i< results.length; i++){
         // console.log(results[i].runs)
         if(i%2 == 0) this.mainChartData1.push(parseInt(results[i].runs));
@@ -129,5 +129,6 @@ export class ChartJSComponent implements OnInit{
     });
 
   }
+}
 
 

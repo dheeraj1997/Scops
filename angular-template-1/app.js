@@ -4,6 +4,7 @@ const app = express();
 // var mongoose = require('mongoose');
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://dheeraj:dheeraj123@ds123584.mlab.com:23584/";
+// var url = "mongodb://localhost:27017/";
 
 // mongoose.connect('mongodb://localhost:27017/cricket/balls', function (err, db){
 //   if(err){
